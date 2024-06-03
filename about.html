@@ -4,40 +4,78 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>About Us</title>
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="css/style1.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
 </head>
 <body>
     <header>
-        <h1>About Us</h1>
-        <nav>
-            <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="about.html">About</a></li>
-                <li><a href="contact.html">Contact</a></li>
-            </ul>
-        </nav>
+        <div class="container">
+            <h1>About Us</h1>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
     </header>
     <main>
-        <section class="about-section">
-            <h2>Our Mission</h2>
-            <p>Our mission is to provide exceptional service and to follow through on our promises. We aim to deliver individual solutions to all our client's needs and add value to their businesses.</p>
+        <section class="hero">
+            <div class="container">
+                <h2>Welcome to Our Company</h2>
+                <p>Delivering excellence in every project.</p>
+                <a href="#mission" class="btn">Learn More</a>
+            </div>
+        </section>
+        <section id="mission" class="about-section">
+            <div class="container">
+                <h2>Our Mission</h2>
+                <p>Our mission is to provide exceptional service and to follow through on our promises. We aim to deliver individual solutions to all our client's needs and add value to their businesses.</p>
+            </div>
         </section>
         <section class="team-section">
-            <h2>Our Team</h2>
-            <div class="team-member">
-                <img src="team1.jpg" alt="Team Member 1">
-                <h3>Jane Doe</h3>
-                <p>CEO</p>
-            </div>
-            <div class="team-member">
-                <img src="team2.jpg" alt="Team Member 2">
-                <h3>John Smith</h3>
-                <p>CTO</p>
+            <div class="container">
+                <h2>Our Team</h2>
+                <div class="team-grid">
+                    <div class="team-member">
+                        <img src="team1.jpg" alt="Team Member 1">
+                        <h3>Jane Doe</h3>
+                        <p>CEO</p>
+                        <div class="socials">
+                            <a href="#"><i class="fab fa-linkedin"></i></a>
+                            <a href="#"><i class="fab fa-twitter"></i></a>
+                            <a href="#"><i class="fab fa-facebook"></i></a>
+                        </div>
+                    </div>
+                    <div class="team-member">
+                        <img src="team2.jpg" alt="Team Member 2">
+                        <h3>John Smith</h3>
+                        <p>CTO</p>
+                        <div class="socials">
+                            <a href="#"><i class="fab fa-linkedin"></i></a>
+                            <a href="#"><i class="fab fa-twitter"></i></a>
+                            <a href="#"><i class="fab fa-facebook"></i></a>
+                        </div>
+                    </div>
+                    <div class="team-member">
+                        <img src="team3.jpg" alt="Team Member 3">
+                        <h3>Mary Johnson</h3>
+                        <p>COO</p>
+                        <div class="socials">
+                            <a href="#"><i class="fab fa-linkedin"></i></a>
+                            <a href="#"><i class="fab fa-twitter"></i></a>
+                            <a href="#"><i class="fab fa-facebook"></i></a>
+                        </div>
+                    </div>
+                </div>
             </div>
         </section>
     </main>
     <footer>
-        <p>&copy; 2024 Our Company. All rights reserved.</p>
+        <div class="container">
+            <p>&copy; 2024 Our Company. All rights reserved.</p>
+        </div>
     </footer>
 </body>
 </html>
